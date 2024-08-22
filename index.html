@@ -1,14 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
+    <!-- fave icon------------------------- -->
     <link rel="icon" href="./fave-icon/icons8-home-48.png" type="image/png">
+    <!-- font awesome ------------------- -->
+    <script src="https://kit.fontawesome.com/4e1f4dc8a3.js" crossorigin="anonymous"></script>
     <title>Rinterio-tailwind-daisyUI</title>
 </head>
+
 <body class="font-manrope ">
+    <!-- container start ----------------- -->
+    <div class="container bg-base-200">
+        <header class="w-11/12 mx-auto">
+            <!-- nav-start  ---------------------------->
+            <div class=" navbar">
+                <div class="navbar-start">
+                    <div class="px-2 py-1 rotate-45 rounded-full bg-lime-400"><i class="fa-solid fa-arrow-up "></i>
+                    </div>
+                    <a class="text-2xl font-black btn btn-ghost">Rinterio</a>
+                </div>
+                <div class="hidden navbar-center lg:flex">
+                    <ul class="px-1 menu menu-horizontal">
+                        <li><a href="#" class="font-bold">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="relative navbar-end ">
+                    <div class="absolute dropdown ">
+
+                        <div tabindex="0" role="button" class="rounded-full btn btn-ghost lg:hidden bg-base-100">
+                            <i class="fa-solid fa-bars "></i>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow absolute right-0 ">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="flex invisible m-4 lg:visible">
+                        <div class="px-3 py-2 rounded-full bg-base-100 ">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="px-3 py-2 ml-4 rounded-full bg-base-100">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+
+                    </div>
+                    <div class="invisible lg:visible">
+
+                        <a class="py-2 text-sm font-bold rounded-full btn-lg bg-lime-400 ">Book Consult
+                            <span class="ml-1 "><i
+                                    class="rotate-45 rounded-full fa-solid fa-circle-arrow-up bg-base-100"></i></span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- nav-end  ---------------------------->
+            <!-- banner-start--------------------------->
+            <div class="min-h-screen hero bg-base-200">
+                <div class="text-center hero-content">
+                    <div class="max-w-md">
+                        <img src="./assets/banner.png">
+                        <h1 class="text-4xl font-black">By the student of programming hero has been develop this design.
+                        </h1>
+                        <p class="py-6 text-gray-500">
+                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                        </p>
+                        <button class="py-2 font-bold rounded-full btn-wide bg-lime-300">Vew Details
+                            <i class="p-2 ml-2 rotate-45 rounded-full fa-solid fa-arrow-up bg-lime-400"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- banner-end--------------------------->
+        </header>
+        <!--*************************************  -->
+        <main class="bg-base-300">
+            <!-- about us start-------------- -->
+            <div class=" hero">
+                <div class="flex-col hero-content lg:flex-row ">
+                  
+                    <div>
+                        <div class="mb-2 -ml-12 w-28">
+                            <img src="./assets/Vector.png" class="invisible w-full lg:visible" alt="">
+                        </div>
+                        <button class="text-sm font-bold rounded-full btn- btn-xs bg-base-100">
+                            <i class="mr-2 rounded-full fa-solid fa-arrow-right "></i>
+                            About Us
+                        </button>
+                        <h1 class="text-4xl font-black"> We design thoughtful,<br> liveable spaces</h1>
+                        <p class="py-6">
+                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi <br>
+                            exercitationem
+                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                        </p>
+                        <!-- card start---------- -->
+                        <div class="w-full mb-4 rounded-3xl indicator bg-base-100">
+                           
+                            <div class=" card">
+                                <div class="flex-row card-body">
+                                     <div>
+                                        <img src="./assets/commercial.png"  >
+                                    </div>
+                                     <div class="mt-5">
+                                        <h2 class="font-bold card-title">
+                                           Commercial</h2>
+                                        <p class="text-gray-400">Rerum reiciendis beatae tenetur excepturi</p>
+                                     </div>
+                                 </div>
+                            </div>
+                        </div>
+                        
+                        <div class="w-full mb-4 rounded-3xl indicator bg-base-100">
+                           
+                            <div class=" card">
+                                <div class="flex-row card-body">
+                                     <div>
+                                        <img src="./assets/residential.png"  >
+                                    </div>
+                                     <div class="mt-4">
+                                        <h2 class="font-bold card-title">
+                                           Residential</h2>
+                                        <p class="text-gray-400">Rerum reiciendis beatae tenetur excepturi</p>
+                                     </div>
+                                 </div>
+                            </div>
+                        </div>
+                        <!-- card end------------ -->
+
+                    </div>
+                    <img src="./assets/Rectangle.png" class="rounded-lg shadow-2xl " />
+                </div>
+            </div>
+            <!-- about us end---------------- -->
+        </main>
+    </div>
+    <!-- container end------------------ -->
 
 
 </body>
+
 </html>

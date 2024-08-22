@@ -6,6 +6,9 @@ module.exports = {
       fontFamily:{
         manrope:["Manrope"]
       },
+     colors:{
+        bbg:['rgb(247,247,247)']
+      },
     },
   },
   plugins: [
