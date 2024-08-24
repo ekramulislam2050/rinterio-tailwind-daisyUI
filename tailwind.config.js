@@ -12,6 +12,9 @@ module.exports = {
            card_3:["rgb(164, 218, 195)"],
            card_4:['rgb(119, 170, 234)'],
       },
+      backgroundImage:{
+        my_img:'url(./assets/bg.jpg)'
+      },
     },
   },
   plugins: [
