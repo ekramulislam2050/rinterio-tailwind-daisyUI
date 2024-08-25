@@ -11,6 +11,7 @@ module.exports = {
            card_2:['rgb(239, 218, 110)'],
            card_3:["rgb(164, 218, 195)"],
            card_4:['rgb(119, 170, 234)'],
+           footerBg:['rgb(28, 28, 28)'],
       },
       backgroundImage:{
         my_img:'url(./assets/bg.jpg)'
